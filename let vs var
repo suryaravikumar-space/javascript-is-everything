@@ -39,16 +39,3 @@ const x = 23;
 // const x = 43; // This would throw an error as const cannot be reassigned
 ```
 
-## Summary
-
-- In **strict mode**, redeclaring a variable with `var` in the same scope is not allowed
-- Always avoid redeclaring the same variable to keep your code clean and predictable
-- Use `let` or `const` in modern JavaScript, which do not allow redeclaration in the same scope
-- `let` allows reassignment, while `const` does not
-
-## Best Practices
-
-1. Use `const` by default for values that won't change
-2. Use `let` when you need to reassign the variable
-3. Avoid `var` in modern JavaScript development
-4. Never redeclare variables in the same scope
